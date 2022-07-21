@@ -1,0 +1,37 @@
+{
+  "name": "8_mint_website_spotify",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.0",
+    "@truffle/hdwallet-provider": "^2.0.11",
+    "big.js": "^6.2.1",
+    "bootstrap": "^4.6.1",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.19.3",
+    "fs": "^0.0.1-security",
+    "nuxt": "^2.15.8",
+    "vue": "^2.6.14",
+    "vue-server-renderer": "^2.6.14",
+    "vue-template-compiler": "^2.6.14",
+    "web3": "^1.7.4",
+    "webpack": "^4.46.0"
+  },
+  "devDependencies": {
+    "truffle-plugin-verify": "^0.5.26"
+  },
+  "description": "## Build Setup",
+  "main": "nuxt.config.js",
+  "directories": {
+    "test": "test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
